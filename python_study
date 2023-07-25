@@ -1,1 +1,3 @@
 python_study
+Python 中文编码 header specifying encoding
+# -*- coding: UTF-8 -*-
