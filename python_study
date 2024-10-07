@@ -1,3 +1,12 @@
-python_study
-Python 中文编码 header specifying encoding
+#python_study
+#Python 中文编码 header specifying encoding
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
+#%运算符就是用来格式化字符串的。在字符串内部，%s表示用字符串替换，%d表示用整数替换，有几个%?占位符，后面就跟几个变量或者值，顺序要对应好
+'Hi, %s, you have $%d.' % ('Michael', 1000000)
+#format()
+'Hello, {0}, 成绩提升了 {1:.1f}%'.format('小明', 17.125)
+#f-string
+r = 2.5
+s = 3.14 * r ** 2
+print(f'The area of a circle with radius {r} is {s:.2f}')
